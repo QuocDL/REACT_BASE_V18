@@ -1,6 +1,4 @@
-# MRT Games
-
-MRT Games is a web application developed by **Lương Chính Quốc** and **Nguyễn Tiến Đạt**. This project is built using modern web technologies to provide a seamless and interactive gaming experience.
+# BASE REACT
 
 ## 🚀 Technologies Used
 
@@ -29,58 +27,6 @@ npm run dev
 ```
 
 The project will be available at `http://localhost:3000/` by default.
-
-## 📜 ESLint Configuration
-
-We use ESLint with TypeScript and React to ensure code quality. If you're working on production-level applications, consider expanding the ESLint configuration:
-
-### Type-Aware Rules
-
-Update the `parserOptions` in your ESLint config:
-
-```js
-export default tseslint.config({
-    languageOptions: {
-        parserOptions: {
-            project: ['./tsconfig.node.json', './tsconfig.app.json'],
-            tsconfigRootDir: import.meta.dirname,
-        },
-    },
-});
-```
-
-### React Plugin Setup
-
-Install `eslint-plugin-react` and update your config:
-
-```js
-import react from 'eslint-plugin-react';
-
-export default tseslint.config({
-    settings: { react: { version: '18.3' } },
-    plugins: {
-        react,
-    },
-    rules: {
-        ...react.configs.recommended.rules,
-        ...react.configs['jsx-runtime'].rules,
-    },
-});
-```
-
-## 💡 Contributing
-
-If you'd like to contribute to **MRT Games**, feel free to fork the repository and submit a pull request!
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
 ---
 
-**Developed by:** Lương Chính Quốc & Nguyễn Tiến Đạt
-
-**Profile Links:**
-
-- [Lương Chính Quốc](https://www.facebook.com/quoc.luongchinh.9/)
-- [Nguyễn Tiến Đạt](https://www.facebook.com/sweetcter)
+**Developed by:** Lương Chính Quốc 
